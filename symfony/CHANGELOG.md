@@ -1,6 +1,6 @@
 # 0.1.0
 
-Initial release of lockbox
+Initial release of Symfony Cookbook
 
 * Enhancements
   * an enhancement

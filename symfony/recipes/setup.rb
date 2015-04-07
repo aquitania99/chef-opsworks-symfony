@@ -9,8 +9,8 @@
 
 include_recipe 'nscd'
 
-include_recipe 'lockbox::remi'
-include_recipe 'lockbox::remi-php55'
+include_recipe 'symfony::remi'
+include_recipe 'symfony::remi-php55'
 
 include_recipe 'php'
 
