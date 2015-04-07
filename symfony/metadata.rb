@@ -1,0 +1,13 @@
+name             'symfony'
+maintainer       'Baldur Rensch'
+maintainer_email 'baldur.rensch@hautelook.com'
+license          'All rights reserved'
+description      'Installs/Configures Symfony application'
+long_description 'Installs/Configures Symfony application'
+version          '0.1.0'
+
+depends 'composer'
+depends 'nginx'
+depends 'nscd'
+depends 'php'
+depends 'php-fpm'
