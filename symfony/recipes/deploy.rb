@@ -49,6 +49,7 @@ node[:deploy].each do |application, deploy|
         optimize_autoloader true
         prefer_source
         dev
+        verbose
         user deploy[:user]
         group deploy[:group]
     end
