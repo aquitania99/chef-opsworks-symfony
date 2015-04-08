@@ -47,9 +47,9 @@ node[:deploy].each do |application, deploy|
     composer_package "/srv/www/#{application}/current" do
         action :install
         optimize_autoloader true
-        prefer_source
-        dev
-        verbose
+        prefer_source true
+        dev true
+        verbose true
         user deploy[:user]
         group deploy[:group]
     end
