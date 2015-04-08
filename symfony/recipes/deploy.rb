@@ -48,6 +48,7 @@ node[:deploy].each do |application, deploy|
         action :install
         optimize_autoloader true
         prefer_source
+        dev
         user deploy[:user]
         group deploy[:group]
     end
